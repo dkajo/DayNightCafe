@@ -1,0 +1,22 @@
+Den information du behöver ha med är:
+
+Övergripande information
+Målet/Syftet med sajten
+Målgruppen, skapa gärna några profiler 
+En sammanfattning om innehållet
+Sajtens titel
+Struktur
+Utifrån innehållet tänker vi över vilka sidor
+Och från det skapas en sitemap
+Vi skapar en mappstruktur
+Layout
+Var ska elementen ligga?
+Tänk på olika stora skärmar
+Var ska sajten ligga i webbläsaren
+Skissa upp bilder på hur det är tänkt att se ut
+Design
+Vilken känsla vill jag skapa?
+Använd teckensnitt, färg och form
+Skapa balans, antingen symmetrisk eller asymtrisk, med hjälp av vikt och vita utrymmen
+Utnyttja gestaltlagarna och perceptionspsykologi
+Skriv upp vilka färger du tänker använda dig av, skissa bilder för hur designen kan komma att bli i slutresultatet

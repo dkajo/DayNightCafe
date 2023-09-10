@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>DayNight Cafe - Om oss</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/main.js" type="module"></script>
+</head>
+
+<body class="om-oss">
+    <header>
+        <h1>DayNight Cafe</h1>
+        <div class="img-text">
+            <p>Photo by <a
+                    href="https://unsplash.com/@nputra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nafinia
+                    Putra</a> on <a
+                    href="https://unsplash.com/photos/Kwdp-0pok-I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+    </header>
+    <!-- Navigation Mobil-->
+    <nav class="mobile">
+        <a href="om-oss.html" class="active">Om oss</a>
+        <ul>
+            <li><a href="../index.html">Hem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="boka.html">Boka</a></li>
+            <li><a href="blogg.html">Blogg</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Navigation Tablet & Desktop-->
+    <nav class="tablet-desktop">
+        <ul>
+            <li><a href="../index.html">Hem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="boka.html">Boka</a></li>
+            <li><a href="blogg.html">Blogg</a></li>
+            <li><a href="om-oss.html" class="active">Om oss</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="om-oss">
+            <h2>Om oss</h2>
+            <br>
+            <picture>
+                <source media="(min-width:768px)" srcset="../images/cafe-tablet.jpg">
+                <img src="../images/cafe-small.jpg" alt="Pink facade with cafe tables in front">
+            </picture>
+            <p class="img-text">Photo by <a
+                    href="https://unsplash.com/@cyzx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clifford</a>
+                on <a
+                    href="https://unsplash.com/photos/5ZB0w0vSgPk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <br>
+            <p>Välkommen till DayNight Cafe - ditt kafé dygnet runt. Vi är mer än bara ett kafé, vi är din tillflyktsort
+                för arbete och studier. Med ett brett utbud av kaffe, te, fika och mat, ser vi till att du alltid har
+                något läckert att njuta av, oavsett tid på dygnet. Från frukost till middag och ända fram till en sen
+                nattmacka, har vi allt du behöver för att hålla dig fokuserad och mätt. Vår meny är noggrant utformad
+                för att ge dig energi, dag som natt.</p>
+
+        </section>
+        <section class="green-highlight two-columns">
+            <h2>Vårt team</h2>
+            <picture>
+                <source media="(min-width:1024px)" srcset="../images/team-desktop.jpg">
+                <img src="../images/team-small.jpg" alt="Four people at a table, smiling">
+            </picture>
+            <p class="img-text">Photo by <a
+                    href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke
+                    Cagle</a> on <a
+                    href="https://unsplash.com/photos/-uHVRvDr7pg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <br>
+            <p>Bakom DayNight Cafe står ett passionerat och engagerat team som förstår våra gästers behov. Vår ägare,
+                med en bakgrund som frilansare, har personligen upplevt utmaningarna med att hitta den perfekta
+                arbetsplatsen. Med denna erfarenhet i åtanke skapade han DayNight Cafe som en lösning för likasinnade.
+                <br><br>
+                Vårt team av medarbetare består främst av studenter, vilket ger oss en unik insikt i vad dagens unga
+                yrkesverksamma och studenter verkligen behöver. Tillsammans strävar vi efter att skapa en välkomnande
+                och produktiv atmosfär för alla våra gäster.
+            </p>
+            <br>
+
+        </section>
+
+
+        <section class="pink-highlight">
+            <h2>Kontakta oss</h2>
+            <p>Du är välkommen att kontakta oss för alla frågor tips och funderingar</p>
+            <form id="contact-form">
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="message">Meddelande:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+
+                <input id="contact-submit" class="button" type="submit" value="Skicka">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>DayNight Cafe</h2>
+        <ul>
+            <li><a href="../index.html">Hem</a></li>
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="boka.html">Boka</a></li>
+            <li><a href="blogg.html">Blogg</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
