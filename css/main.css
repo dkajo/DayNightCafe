@@ -437,13 +437,16 @@ div.weather i {
     margin: 1rem auto 0;
   }
 
+  /*  --  Blogg --  */
   .articles {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 
-  .page-header {
+  .articles h2,
+  .articles h2 + p {
+    grid-column: 1/3;
     text-align: center;
   }
 
