@@ -378,13 +378,20 @@ div.weather i {
     border-radius: 5px;
   }
 
-  section.two-columns {
+  section.two-columns { /* Används den här?*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  div.two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 
   #grupprum {
+    margin-top: 3rem;
     grid-column: 1/2;
   }
 
@@ -393,6 +400,7 @@ div.weather i {
   }
 
   #uteplats {
+    margin-top: 3rem;
     grid-column: 2/3;
   }
 

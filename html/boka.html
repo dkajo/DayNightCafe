@@ -3,10 +3,10 @@
 
 <head>
     <title>DayNight Cafe - Boka</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/reset.css" rel="stylesheet" />
-    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/main.js" type="module"></script>
 </head>
@@ -52,7 +52,6 @@
             <p>När du väljer ett datum i formuläret nedan kommer vädret uppdateras för att hjälpa dig välja vilken plats
                 du vill boka</p>
             <div class="weather">
-                <h3></h3>
                 <p class="weather-label">Max.temp:</p>
                 <p id="max-temp"></p>
                 <p class="weather-label">Min.temp:</p>
@@ -61,12 +60,15 @@
             </div>
         </section>
         <section class="pink-highlight">
+            <h2>Boka plats</h2>
+            <p>Du kan boka upp till en vecka frammåt</p>
             <form id="book-form">
                 <label for="date">Välj datum</label><br>
                 <input type="date" id="date" name="date" required><br>
 
                 <label for="time">Välj tid</label><br>
                 <select id="time" name="time" required>
+                    <option value="" disabled selected>Välj tid</option>
                     <option value="9-11">9-11</option>
                     <option value="11-13">11-13</option>
                     <option value="13-15">13-15</option>
