@@ -3,8 +3,8 @@
   --site-black: #130602;
   --site-white: #F1F7ED;
   --coffee: #260B03;
-  --pink-background: #FCC5DA;
-  --green-highlight: #1fc23f;
+  --pink-background: #F7F8F2;
+  --green-highlight: #036316;
 }
 
 @font-face {
@@ -96,7 +96,7 @@ img {
 .button {
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--coffee);
+  color: var(--site-white);
   padding: 0.8rem;
   line-height: 5;
   border-radius: 80px;
