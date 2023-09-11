@@ -276,11 +276,6 @@ div.weather {
   border-radius: 25px;
 }
 
-div.weather h3 {
-  margin-top: 0;
-  grid-column: 1/4;
-}
-
 .weather-label {
   grid-column: 1/2;
   text-align: left;
