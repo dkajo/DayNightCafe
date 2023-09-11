@@ -9,7 +9,7 @@ const BOOK_FORM_SUBMIT = document.querySelector("#book-form input[type='submit']
 const BOOK_DATE = document.querySelector("#date");
 const MAX_TEMP = document.querySelector("#max-temp");
 const MIN_TEMP = document.querySelector("#min-temp");
-const WEATHER_HEADING = document.querySelector("div.weather h3");
+const WEATHER_HEADING = document.querySelector("div.weather p+b");
 const WEATHER_ICON = document.querySelector("div.weather i");
 
 const dateToday = getDateToday();
